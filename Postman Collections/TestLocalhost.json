@@ -586,7 +586,8 @@
 							"\r",
 							"var time = pm.response.responseTime\r",
 							"\r",
-							"pm.test('Response time: ' + time + ' ms', () => pm.response.to.have.status(200))"
+							"pm.test('Response time: ' + time + ' ms', () => pm.response.to.have.status(200));\r",
+							""
 						],
 						"type": "text/javascript"
 					}
@@ -602,7 +603,36 @@
 				},
 				"method": "POST",
 				"header": [],
-				"url": "https://localhost/LEAF_Request_Portal/api/new"
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n    \"formID\": \"form_12307\",\r\n    \"requestData\": \"Test Form\"   \r\n}"
+				},
+				"url": {
+					"raw": "https://localhost/LEAF_Request_Portal/api/new",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"LEAF_Request_Portal",
+						"api",
+						"new"
+					],
+					"query": [
+						{
+							"key": "formID",
+							"value": "form_12334",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "requestData",
+							"value": "Test Request",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -803,23 +833,23 @@
 	],
 	"variable": [
 		{
-			"id": "52460095-3f9b-4673-9d29-08b34697e24e",
+			"id": "64996cd8-1da5-4a6c-b878-62a9b89e73f4",
 			"key": "CSFRToken",
 			"value": "Input CSFR Token",
 			"type": "string"
 		},
 		{
-			"id": "35384ac8-b767-4951-be73-7001696638f7",
+			"id": "85759e1a-9acb-459d-a4b8-8034cb536238",
 			"key": "formCategories",
 			"value": ""
 		},
 		{
-			"id": "3a3e48c9-87bf-4a40-87e1-10a9a7b296aa",
+			"id": "98bb5e21-603d-47e6-80c9-de222f784f23",
 			"key": "CategoryID",
 			"value": ""
 		},
 		{
-			"id": "783b9cee-4644-4c95-890a-0af7a1a46bce",
+			"id": "3d0fcd12-64c2-443e-a497-33e6c27c8391",
 			"key": "categoryID",
 			"value": ""
 		}
