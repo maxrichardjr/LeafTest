@@ -443,8 +443,7 @@
 							"    console.log(currentCatID);\r",
 							"    pm.expect(currentCatID).to.eql(\"form_12334\");  //    //form_854b7\r",
 							"\r",
-							"//Pickup here => \r",
-							"//Vid = 7:57\r",
+							"\r",
 							"\r",
 							"});\r",
 							"\r",
@@ -804,23 +803,23 @@
 	],
 	"variable": [
 		{
-			"id": "f6a1a49a-5d53-4513-87c7-d97e99435810",
+			"id": "52460095-3f9b-4673-9d29-08b34697e24e",
 			"key": "CSFRToken",
 			"value": "Input CSFR Token",
 			"type": "string"
 		},
 		{
-			"id": "167c3757-3829-4a16-b266-e32601c5d2c0",
+			"id": "35384ac8-b767-4951-be73-7001696638f7",
 			"key": "formCategories",
 			"value": ""
 		},
 		{
-			"id": "06cba386-e124-4ef0-b8b3-94009e69d96e",
+			"id": "3a3e48c9-87bf-4a40-87e1-10a9a7b296aa",
 			"key": "CategoryID",
 			"value": ""
 		},
 		{
-			"id": "06dfb29c-ed0c-4ef7-a21f-d7ab56c97a40",
+			"id": "783b9cee-4644-4c95-890a-0af7a1a46bce",
 			"key": "categoryID",
 			"value": ""
 		}
