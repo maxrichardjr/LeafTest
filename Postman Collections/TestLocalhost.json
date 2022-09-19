@@ -601,9 +601,9 @@
 				"auth": {
 					"type": "noauth"
 				},
-				"method": "GET",
+				"method": "POST",
 				"header": [],
-				"url": "https://localhost/LEAF_Request_Portal/api/"
+				"url": "https://localhost/LEAF_Request_Portal/api/new"
 			},
 			"response": []
 		},
@@ -804,23 +804,23 @@
 	],
 	"variable": [
 		{
-			"id": "4f5bc334-1b8a-47df-90dd-3dad3c3309a2",
+			"id": "c2b1f812-5ff0-40eb-be5b-3541b9a133a4",
 			"key": "CSFRToken",
 			"value": "Input CSFR Token",
 			"type": "string"
 		},
 		{
-			"id": "eed6cc0f-b5b6-49d5-9897-2c56fb4d7756",
+			"id": "35c5810c-69db-400e-bfa2-bb96a1d4417c",
 			"key": "formCategories",
 			"value": ""
 		},
 		{
-			"id": "c099cca4-ce5f-4097-998f-c19d1515f160",
+			"id": "14f7429d-bd9b-43ad-8ae9-db51428154c0",
 			"key": "CategoryID",
 			"value": ""
 		},
 		{
-			"id": "893aa25c-f140-4753-b21c-e6734e1b37b1",
+			"id": "b29cd5d3-34b5-40dc-8e2a-c6cb3a01bae3",
 			"key": "categoryID",
 			"value": ""
 		}
